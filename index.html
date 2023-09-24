@@ -11,8 +11,125 @@
     <title>Travel Site - Home</title>
 </head>
 
+
+<!-- MARK: BODY -->
+
 <body>
 
+    <!-- MARK: HEADER -->
+    <header>
+
+        <!-- MARK: NAV BAR -->
+        <nav class="nav-bar">
+            <a href="index.html" class="text-link">
+                <h4>Travel Site</h4>
+            </a>
+            <ul class="nav-bar__list">
+                <a href="index.html" class="text-link nav-selection"><li>Home</li></a>
+                <a href="pages/hawaii.html" class="text-link"><li>Hawaii</li></a>
+                <a href="pages/iceland.html" class="text-link"><li>Iceland</li></a>
+                <a href="pages/greece.html" class="text-link"><li>Greece</li></a>
+            </ul>
+        </nav>
+
+        <!-- MARK: HERO -->
+        <article class="hero">
+            <div class="hero__cta">
+                <h2>Travelling Comes With Endless Discoveries</h2>
+                <p class="hero__text">Don't let your dreams be just dreams. Experience the world by booking a vacation
+                    with us now.</p>
+                <a class="btn" href="#recommendations-id">Get Started</a>
+            </div>
+            <img class="hero__img" src="/assets/Images/hero.png">
+        </article>
+
+    </header>
+
+
+
+
+    <!-- MARK: MAIN -->
+    <main>
+
+        <!-- MARK: RECOMMEDATIONS -->
+        <section id="recommendations-id" class="recommendations">
+            <h3>Recommendations</h3>
+
+            <div class="recommendations__container">
+                <article class="recommendations__card">
+                    <a href="/pages/hawaii.html">
+                        <img class="recommendations__img" src="/assets/Images/hawaii.jpg">
+                        <h3 class="recommendations__label">Hawaii</h3>
+                    </a>
+                </article>
+
+                <article class="recommendations__card">
+                    <a href="/pages/iceland.html">
+                        <img class="recommendations__img" src="/assets/Images/iceland.jpg">
+                        <h3 class="recommendations__label">Iceland</h3>
+                    </a>
+
+                </article>
+
+
+                <article class="recommendations__card">
+                    <a href="/pages/greece.html">
+                        <img class="recommendations__img" src="/assets/Images/greece.jpg">
+                        <h3 class="recommendations__label">Greece</h3>
+                    </a>
+                </article>
+            </div>
+        </section>
+
+        <!-- MARK: FOOTER -->
+        <footer class="footer">
+            <div class="footer__container">
+                <article class="footer__card">
+                    <h3 class="footer__title">Contact</h3>
+                    <p class="all-caps footer__subtitle">Email</p>
+                    <a href="mailto:info@travelsite.com" class="text-link"><p>info@travelsite.com</p></a>
+                </article>
+
+                <article class="footer__card">
+                    <h3 class="footer__title">Hours</h3>
+
+                    <div class="footer__hours-container">
+                        <article>
+                            <p class="all-caps footer__subtitle">Monday - Friday</p>
+                            <p class="all-caps">9:00 am - 5:00 pm</p>
+                        </article>
+
+                        <article>
+                            <p class="all-caps footer__subtitle">Saturday</p>
+                            <p class="all-caps">10:00 am - 4:00 pm</p>
+                        </article>
+
+                        <article>
+                            <p class="all-caps footer__subtitle">Sunday</p>
+                            <p>Closed</p>
+                        </article>
+                    </div>
+                </article>
+
+                <article class="footer__card">
+                    <h3 class="footer__title">Social</h3>
+                    <div class="footer__logo-container">
+                        <a href="https://www.instagram.com">
+                            <img class="footer__icon" src="/assets/Icons/icon-instagram.png">
+                        </a>
+                        <a href="https://www.facebook.com">
+                            <img class="footer__icon" src="/assets/Icons/icon-facebook.png">
+                        </a>
+                        <a href="https://www.twitter.com">
+                            <img class="footer__icon" src="/assets/Icons/icon-twitter.png">
+                        </a>
+                    </div>
+                </article>
+            </div>
+        </footer>
+
+
+    </main>
 </body>
 
 </html>

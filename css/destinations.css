@@ -1,0 +1,61 @@
+/* MARK: ROOT */
+:root{
+    --activity-bkg-color: #FEFAF5;
+}
+
+/* MARK: MAIN CLASSES */
+.destination-main{
+    padding: 5%;
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hawaii-main{
+    background-image: url("/assets/Images/hawaii.jpg");
+}
+
+.iceland-main{
+    background-image: url("/assets/Images/iceland.jpg");
+}
+
+.greece-main{
+    background-image: url("/assets/Images/greece.jpg");
+}
+
+.destination-title{
+    color: white;
+}
+
+.program{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3rem;
+    margin: 5%;
+}
+
+.program__card{
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    padding: 1%;
+    width: 20%;
+    height: 250px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.program__card h4{
+    color: black;
+    text-align: center;
+    border: solid black;
+    border-width: 0 0 2px 0;
+}
+
+.program__card p{
+    color: black;
+    background-color: var(--activity-bkg-color);
+    padding: 10px;
+    text-align: center;
+}
