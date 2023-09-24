@@ -104,6 +104,37 @@ h4{
     margin-bottom: 0.7rem;
 }
 
+
+/* MARK: MEDIA QUERIES */
+@media (max-width: 1000px){
+    .footer__container{
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+    }
+
+    .footer__logo-container{
+        justify-content: center;
+    }
+
+    .footer__title{
+        text-align: center;
+    }
+
+    .footer__hours-container{
+        flex-direction: column;
+    }
+
+    .footer__subtitle{
+        text-align: center;
+    }
+
+    .footer__card p{
+        text-align: center;
+    }
+}
+
+
 /* MARK: STYLING OVERRIDE */
 .all-caps{
     text-transform: uppercase;

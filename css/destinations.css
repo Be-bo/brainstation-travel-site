@@ -27,6 +27,7 @@
     color: white;
 }
 
+/* MARK: PROGRAM */
 .program{
     display: flex;
     flex-direction: row;
@@ -63,4 +64,19 @@
     background-color: var(--activity-bkg-color);
     padding: 10px;
     text-align: center;
+}
+
+/* MARK: MEDIA QUERIES */
+@media (max-width: 1000px){
+    .destination-title{
+        text-align: center;
+    }
+
+    .program{
+        flex-direction: column;
+    }
+
+    .program__card{
+        width: auto;
+    }
 }

@@ -7,6 +7,7 @@
     --reco-title-color: #335576;
 }
 
+/* MARK: HERO */
 .hero{
     display: flex;
     justify-content: space-between;
@@ -29,6 +30,8 @@
     max-width: 40%;
 }
 
+
+/* MARK: RECOMMENDATIONS */
 .recommendations{
     padding: 5%;
 }
@@ -62,4 +65,30 @@
     bottom: 5%;
     right: 10%;
     color: white;
+}
+
+
+/* MARK: MEDIA QUERIES */
+@media (max-width: 1000px){
+    .hero{
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .hero__cta{
+        text-align: center;
+        align-items: center;
+    }
+
+    .btn{
+        width: 125px;
+    }
+
+    .recommendations__container{
+        flex-direction: column;
+    }
+
+    .recommendations h3{
+        text-align: center;
+    }
 }
