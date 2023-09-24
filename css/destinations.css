@@ -12,15 +12,15 @@
 }
 
 .hawaii-main{
-    background-image: url("./assets/Images/hawaii.jpg");
+    background-image: url("../assets/Images/hawaii.jpg");
 }
 
 .iceland-main{
-    background-image: url("./assets/Images/iceland.jpg");
+    background-image: url("../assets/Images/iceland.jpg");
 }
 
 .greece-main{
-    background-image: url("./assets/Images/greece.jpg");
+    background-image: url("../assets/Images/greece.jpg");
 }
 
 .destination-title{
