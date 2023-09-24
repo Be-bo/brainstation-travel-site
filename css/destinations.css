@@ -36,9 +36,6 @@
 }
 
 .program__card{
-    display: flex;
-    flex-direction: column;
-    gap: 0.75rem;
     padding: 1%;
     width: 20%;
     height: 250px;
@@ -53,7 +50,15 @@
     border-width: 0 0 2px 0;
 }
 
-.program__card p{
+.program__list{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin: 1rem 0;
+}
+
+.program__list li{
     color: black;
     background-color: var(--activity-bkg-color);
     padding: 10px;
