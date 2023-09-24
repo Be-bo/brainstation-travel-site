@@ -119,3 +119,9 @@ h4{
     text-decoration: none;
     color: var(--wordmark-color);
 }
+
+.nav-bar__list .text-link:hover{
+    border: solid var(--active-color);
+    border-width: 0 0 2px 0;
+    padding-bottom: 0.5rem;
+}

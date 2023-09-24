@@ -53,6 +53,10 @@
     box-shadow: 0px 4px 4px rgba(0,0,0,0.2);
 }
 
+.recommendations__img:hover{
+    border: 2px solid var(--active-color);
+}
+
 .recommendations__label{
     position: absolute;
     bottom: 5%;
